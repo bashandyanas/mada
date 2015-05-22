@@ -74,35 +74,46 @@ html, body {
     left: 4%;
 }
 
-#logo img {
-  width: 11%;
-  height: 11%;
+#logo img{
+  width: 6%;
+  height: 6%;
   float: left;
 }
 
 #logo h1 {
-  font-size: 1.3em;
-  color: white;
-  line-height: 200%;
-  display: inline;
-  margin-left: 5%;
+  position: absolute;
+  top: -20%;
+  left: 7%;
+  font-size: 2em;
+  color: black;
+  background: rgba(255,255,255,0.5) ;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color: #DD4814;
 }
 
-span {
-  font-size: 1.3em;
-  color: #DD4814;
-  letter-spacing: 0.2em;
+#logo #second {
+  position: absolute;
+  top: 28%;
+  left: 7%;
+  font-size: 2em;
+  color: black;
+  background: rgba(255,255,255,0.5) ;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  color: black;
 }
 
 /* Menu */
 .menu {
-position: absolute;
-top: 2em;
-display: none;
+  position: absolute;
+  top: 100%;
+  left: 4%;
+  display: none;
 }
 
 .menuhover {
-position: relative;
+  relative;
 }
 
 .menuhover:hover .menu{
@@ -111,7 +122,8 @@ position: relative;
 
 .menu li {
   list-style-type: none;
-  font-size: 1.3em;
+  font-size: 2em;
   margin-top: 1em;
   color: white;
+  font-weight: 900;
 }
