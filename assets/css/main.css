@@ -75,15 +75,15 @@ html, body {
 }
 
 #logo img{
-  width: 50%;
-  height: 50%;
+  width: 6%;
+  height: 6%;
   float: left;
 }
 
 #logo h1 {
   position: absolute;
-  top: -29%;
-  left: 60%;
+  top: -20%;
+  left: 7%;
   font-size: 2em;
   color: black;
   background: rgba(255,255,255,0.5) ;
@@ -94,12 +94,36 @@ html, body {
 
 #logo #second {
   position: absolute;
-  top: 18%;
-  left: 60%;
+  top: 28%;
+  left: 7%;
   font-size: 2em;
   color: black;
   background: rgba(255,255,255,0.5) ;
   letter-spacing: 0.1em;
   font-weight: 100;
   color: black;
+}
+
+/* Menu */
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 4%;
+  display: none;
+}
+
+.menuhover {
+  relative;
+}
+
+.menuhover:hover .menu{
+    display: block;
+}
+
+.menu li {
+  list-style-type: none;
+  font-size: 2em;
+  margin-top: 1em;
+  color: white;
+  font-weight: 900;
 }
