@@ -78,14 +78,20 @@ html, body {
 }
 
 #logo img{
+<<<<<<< HEAD:assets/css/main.css
   width: 2.1em;
   height: 2.1em;
+=======
+  width: 6%;
+  height: 6%;
+>>>>>>> a02528fbf2e10126244ccdccb195bbc306249760:assets/css/main.css
   float: left;
   opacity: 0.8;
   margin-right: 1em;
 }
 
 #logo h1 {
+<<<<<<< HEAD:assets/css/main.css
   display: table-cell;
   font-size: 2em;
   color: black;
@@ -99,18 +105,49 @@ html, body {
   font-size: 2em;
   color: black;
   background: rgba(255,255,255,0.8);
+=======
+  position: absolute;
+  top: -20%;
+  left: 7%;
+  font-size: 2em;
+  color: black;
+  background: rgba(255,255,255,0.5) ;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color: #DD4814;
+}
+
+#logo #second {
+  position: absolute;
+  top: 28%;
+  left: 7%;
+  font-size: 2em;
+  color: black;
+  background: rgba(255,255,255,0.5) ;
+>>>>>>> a02528fbf2e10126244ccdccb195bbc306249760:assets/css/main.css
   letter-spacing: 0.1em;
   font-weight: 100;
   color: black;
 }
 
 .menu {
+<<<<<<< HEAD:assets/css/main.css
   font-size: 2em;
   font-weight: bolder;
   line-height: 2em;
   position: absolute;
   top: 5em;
   left: 2.3em;
+=======
+  position: absolute;
+  top: 100%;
+  left: 4%;
+  display: none;
+}
+
+.menuhover {
+  relative;
+>>>>>>> a02528fbf2e10126244ccdccb195bbc306249760:assets/css/main.css
 }
 
 .menu a {
@@ -120,8 +157,15 @@ html, body {
 
 .menu li {
   list-style-type: none;
+<<<<<<< HEAD:assets/css/main.css
 }
 
 .hidden {
   display: none;
+=======
+  font-size: 2em;
+  margin-top: 1em;
+  color: white;
+  font-weight: 900;
+>>>>>>> a02528fbf2e10126244ccdccb195bbc306249760:assets/css/main.css
 }
