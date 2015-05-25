@@ -1,9 +1,8 @@
 $(document).ready(function() {
-  $('.menuhover').mouseenter(function() {
-    $('.itemactive').blur();
+  $('#logo').click(function() {
+    $('#myCarousel').toggle();
+    $('body').css('background-color', 'rgb(200,100,255)', 'slow');
+    $('.menu a').css('color', 'black');
+    $('.menu').toggleClass('hidden').animate();
   })
-});
-
-$( "#logo" ).click(function() {
-  $( ".itemactive" ).blur();
 });
